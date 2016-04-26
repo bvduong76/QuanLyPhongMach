@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 23, 2016 9:34:56 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entities.Dsbenhnhan" table="DSBENHNHAN" schema="dbo" catalog="QLPM" optimistic-lock="version">
+        <id name="hoTen" type="string">
+            <column name="HoTen" />
+            <generator class="assigned" />
+        </id>
+        <property name="gioiTinh" type="string">
+            <column name="GioiTinh" length="3" />
+        </property>
+        <property name="namSinh" type="java.lang.Integer">
+            <column name="NamSinh" />
+        </property>
+        <property name="diaChi" type="string">
+            <column name="DiaChi" />
+        </property>
+        <set name="phieukhambenhs" table="PHIEUKHAMBENH" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="HoTen" />
+            </key>
+            <one-to-many class="entities.Phieukhambenh" />
+        </set>
+        <set name="dskhambenhs" table="DSKHAMBENH" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="HoTen"/>
+            </key>
+            <one-to-many class="entities.Dskhambenh" />
+        </set>
+    </class>
+</hibernate-mapping>

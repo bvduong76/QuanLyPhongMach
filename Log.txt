@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+24/04/2016 20:42:13 Thêm bệnh nhân thành công ! 
+24/04/2016 20:42:28 Đăng kí thành công ! 
+
+
+24/04/2016 20:44:21 Thêm bệnh nhân thành công ! 
+24/04/2016 20:44:26 Đăng kí thành công ! 
+
+
+24/04/2016 20:46:22java.lang.NumberFormatException: For input string: "zxc"
+24/04/2016 20:46:22org.hibernate.exception.ConstraintViolationException: could not execute statement
+24/04/2016 20:46:23 Thêm bệnh nhân thất bại ! 
+24/04/2016 20:46:25 Thêm bệnh nhân thành công ! 
+
+
+
+
+
+
+
+
+24/04/2016 22:03:07 Thêm bệnh nhân thành công ! 
+
+
+
+24/04/2016 22:05:03 Thêm bệnh nhân thành công ! 
+24/04/2016 22:05:07 Đăng kí thành công ! 
+24/04/2016 22:05:15 Thêm bệnh nhân thành công ! 
+24/04/2016 22:05:19 Đăng kí thành công ! 
+24/04/2016 22:05:27 Thêm bệnh nhân thành công ! 
+24/04/2016 22:05:31 Đăng kí thành công ! 
+24/04/2016 22:05:34 Đăng kí thành công ! 
+24/04/2016 22:05:38 Đăng kí thành công ! 
+24/04/2016 22:05:41 Đăng kí thành công ! 
+24/04/2016 22:05:58 Đăng kí thành công ! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24/04/2016 23:19:34org.hibernate.exception.ConstraintViolationException: could not execute statement
+24/04/2016 23:19:39org.hibernate.exception.ConstraintViolationException: could not execute statement
+
+24/04/2016 23:19:56Lập phiếu khám bệnh xong
+
+24/04/2016 23:20:22org.hibernate.exception.ConstraintViolationException: could not execute statement
+24/04/2016 23:20:23Lập phiếu khám bệnh lỗi
+
+
+
+25/04/2016 00:11:29 Thêm bệnh nhân thành công ! 
+25/04/2016 00:11:40 Đăng kí thành công ! 
+25/04/2016 00:12:01 Thêm bệnh nhân thành công ! 
+25/04/2016 00:12:06 Đăng kí thành công ! 
+25/04/2016 00:12:29Lập phiếu khám bệnh xong
+25/04/2016 00:12:43java.lang.NumberFormatException: For input string: "ád"
+25/04/2016 00:12:43org.hibernate.exception.ConstraintViolationException: could not execute statement
+25/04/2016 00:12:44 Thêm bệnh nhân thất bại ! 
+25/04/2016 00:12:47 Thêm bệnh nhân thành công ! 
+25/04/2016 00:14:30 Thêm bệnh nhân thành công ! 
+
+
